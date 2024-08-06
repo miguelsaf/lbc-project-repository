@@ -1,0 +1,66 @@
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport content="width=device-width, initial-scale="1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="update.js" defer></script>
+    <title>Update Project</title>
+  </head>
+  <body>
+    <div>
+      
+    </div>
+    
+    <div class="main">
+      <a href="/home.html"><h2>BloomTech LBC Projects Repository MiguelFr</h2> </a>
+      
+    <h2>New Project</h2>
+    <form id="update-project-form">
+     
+        <table>
+          <tr>
+            <th>Title</th>
+            <td> <input type="text" required class="validated-field" id="title" autofocus></td>
+            <th>Description</th>
+            <td> <input type="text" class="validated-field" id="description" data-tip="What is the porpuso of the project?" autofocus></td>
+          </tr>
+          <tr>
+            <th>Course</th>
+            <td> <input type="text" required class="validated-field" id="course" placeholder="BackEnd" data-tip="BackEnd, FullStack, DataScience" autofocus></td>
+          
+            <th>Git Url</th>
+            <td><input type="text"  class="validated-field" id="gitUrl" placeholder="https://github.com/BloomTechBackend/bd-team-project-miguelfr" autofocus> </td>
+          </tr>
+          <tr>  
+            <th>Website Url</th>
+            <td> <input type="text"  class="validated-field" id="websiteUrl" placeholder="https://github.com/BloomTechBackend/bd-team-project-miguelfr" autofocus></td>
+            <th>Year</th>
+            <td> <input type="text" required class="validated-field" id="year" placeholder="2024" data-tip="The year that the project was finished" autofocus></td>       
+          </tr>
+          <tr>
+            <th>Team Name</th>
+            <td> <input type="text" required class="validated-field" id="teamName" placeholder="Team A"  autofocus></td>
+            <th>Developer 1</th>
+            <td> <input type="text" required class="validated-field" id="dev1" placeholder="Miguel" data-tip="Team member name" autofocus></td>
+          </tr>
+          <tr>  
+            <th>Developer 2</th>
+            <td> <input type="text"  class="validated-field" id="dev2" placeholder="Miguel" data-tip="Team member name" autofocus></td>
+            <th>Developer 3</th>
+            <td> <input type="text"  class="validated-field" id="dev3" placeholder="Miguel" data-tip="Team member name" autofocus></td>
+          </tr>
+          <tr>  
+            <th>Developer 4</th>
+            <td> <input type="text"  class="validated-field" id="dev4" placeholder="Miguel" data-tip="Team member name" autofocus></td>
+            <th>Project ID</th>
+            <td> <input type="text"  class="validated-field" id="project-id"  autofocus></td>
+          </tr>
+        
+        </table>
+      
+     
+      <input type="submit" value="Update">
+    </form>
+  </div>
+  </body>
+</html>
